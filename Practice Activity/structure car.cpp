@@ -24,8 +24,7 @@ int main() {
     cout << endl;
     
     displayCarDetails(car);
-    
-    
+     
     return 0;
 }
 
@@ -43,4 +42,5 @@ void displayCarDetails(Car car) {
     cout << "Year: " << car.year << endl;
     cout << "Mileage: " << car.mileage << endl;
     cout << "Depreciation: " << calculateDepriciation(car.mileage) << "%";
+
 }
